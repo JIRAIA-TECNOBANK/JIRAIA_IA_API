@@ -68,5 +68,6 @@ namespace Tecnobank_Jiraia_Api.CrossCutting
                 return double.Parse(_configuration["ChatGpt:Temperature"], CultureInfo.InvariantCulture);
             }
         }
+
     }
 }
